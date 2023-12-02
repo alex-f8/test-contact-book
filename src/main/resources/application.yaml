@@ -1,0 +1,23 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /api
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: none
+    generate-ddl: false
+    show-sql: true
+  datasource:
+    url: jdbc:postgresql://localhost:5432/contact-book
+    username: postgres
+    password: 123
+    driver-class-name: org.postgresql.Driver
+  security:
+    user:
+      name: user
+      password: 123
+#
+#debug: true
+springdoc:
+  enable-spring-security: true
