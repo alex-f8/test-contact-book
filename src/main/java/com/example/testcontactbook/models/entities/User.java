@@ -37,7 +37,7 @@ public class User implements UserDetails {
 
     @Override
     public Collection<? extends GrantedAuthority> getAuthorities() {
-        return List.of(new SimpleGrantedAuthority(AthorityEnum.USER.toString()));
+        return List.of(new SimpleGrantedAuthority(authority.toString()));
     }
 
     @Override

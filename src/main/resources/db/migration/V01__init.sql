@@ -38,16 +38,3 @@ values (nextval('contacts_seq'), 'Some1', 'One1', '+123', 'some.one1@email.com',
        (nextval('contacts_seq'), 'Some2', 'One2', '+123', 'some.one2@email.com', 'georgia tbilisi rustaveli 1', 2),
        (nextval('contacts_seq'), 'Some3', 'One3', '+123', 'some.one3@email.com', 'georgia tbilisi rustaveli 1', 3),
        (nextval('contacts_seq'), 'Some4', 'One4', '+123', 'some.one4@email.com', 'georgia tbilisi rustaveli 1', 3)
-/*
-avtorization
-
-first_name
-last_name
-phone
-email
-address
-
-create contact
-get contacts paging
-delete contacts
-update contacts*/
